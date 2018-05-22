@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">My News App Stage1 </string>
+    <string name="no_internet_connection">Unfortunately there are No internet connection.</string>
+    <string name="no_news">" Currently there are no stories for you. Please come back later and try again."</string>
+
+    <string name="text_two">text_two</string>
+    <string name="text_three">text_three</string>
+    <string name="url_text">url_text</string>
+    <string name="text_author">text_author</string>
+    <string name="cnn_news">guardian news</string>
+    <string name="dividerHeight">5dp</string>
+    
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="settings_min_news_key">News</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">min_news</string>
+    <string name="settings_order_by_default" translatable="false">Select Your Order By</string>
+
+         <string name="settings_order_by_newest_label">Newest</string>
+         <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+         <string name="settings_order_by_oldest_label">Oldest</string>
+         <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+         <string name="settings_order_by_relevance_label">Relevance</string>
+         <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_order_date_label">Order Date</string>
+    <string name="settings_order_date_key" translatable="false">Select</string>
+    <string name="settings_order_date_default" translatable="false">Select</string>
+
+    <string name="settings_order_by_published_label">published</string>
+    <string name="settings_order_by_published_value" translatable="false">published</string>
+
+    <string name="settings_order_by_newspaper_label">newspaper-edition</string>
+    <string name="settings_order_by_newspaper_value" translatable="false">newspaper-edition</string>
+
+    <string name="settings_order_by_last_label">last-modified</string>
+    <string name="settings_order_by_last_value" translatable="false">last-modified</string>
+
+    <string name="settings_category_label">Search about what I Want</string>
+    <string name="settings_category_key" translatable="false">topic category</string>
+    <string name="settings_category_default" translatable="false">Search about what you Prefer</string>
+</resources>
