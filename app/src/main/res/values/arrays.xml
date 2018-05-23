@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--only preference set in arrays and strings are order-by-->
-    <string-array name="settings_order_by_labels">
 
+    <string-array name="settings_order_by_labels">
         <item>@string/settings_order_by_oldest_label</item>
         <item>@string/settings_order_by_newest_label</item>
         <item>@string/settings_order_by_relevance_label</item>
