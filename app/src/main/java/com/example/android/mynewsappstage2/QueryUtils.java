@@ -129,7 +129,6 @@ public final class QueryUtils {
             JSONObject responsJsonObject = baseJsonResponse.getJSONObject("response");
             JSONArray firstArrayJson = responsJsonObject.getJSONArray("results");
 
-            //JSONObject firstFeature = newsArrayJson.getJSONObject(0);
 
             for (int i = 0; i < firstArrayJson.length(); i++) {
 
@@ -139,7 +138,6 @@ public final class QueryUtils {
                 String type = currentJson.getString("type");
                 String sectionName = currentJson.getString("sectionName");
 
-                //String publishedTime = currentJson.getString("webPublicationDate");
                 // Extract the value for the key called "webPublicationDate"
                 String publishedTime = currentJson.getString("webPublicationDate");
 
