@@ -6,8 +6,8 @@ import android.content.Context;
 import java.util.List;
 
 public class MyNewsLoader extends AsyncTaskLoader<List<News>> {
-//Query URL
 
+    //Query URL
     private String mUrl;
 
     public MyNewsLoader(Context context, String vUrl) {
