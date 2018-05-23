@@ -153,18 +153,8 @@ public final class QueryUtils {
                     // with the message from the exception.
                 }
 
-
-
                 String url = currentJson.getString("webUrl");
                 String authorName=currentJson.getString("pillarName");
-               /** JSONArray tagsArrayJson = currentJson.getJSONArray("tags");
-                String authorName = "";
-                if (tagsArrayJson.length() != 0) {
-                    JSONObject currentTagsArray = tagsArrayJson.getJSONObject(0);
-                    authorName = currentTagsArray.getString("webTitle");
-                } else {
-                    authorName = "No Author ..";
-                }*/
 
                 News myItemNews = new News(title, type, sectionName, finalDate, authorName, url);
                 myNewsArray.add(myItemNews);

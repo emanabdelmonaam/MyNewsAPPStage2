@@ -10,7 +10,6 @@ public class News {
     private Date mDate;
     private String mAuthor;
     private String mUrl;
-   // private int mImage;
 
     public News(String vTitle, String vType, String vSection, Date vDate, String vAuthor, String vUrl) {
 
@@ -45,7 +44,5 @@ public class News {
     public String getmUrl() {
         return mUrl;
     }
-
-
 
 }
